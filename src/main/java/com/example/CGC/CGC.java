@@ -11,7 +11,6 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 @EnableScheduling
 @EnableConfigurationProperties({CGCErrorMapping.class, Properties.class})
 public class CGC {
-
 	public static void main(String[] args) {
 		SpringApplication.run(CGC.class, args);
 	}
